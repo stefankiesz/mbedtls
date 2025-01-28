@@ -64,6 +64,8 @@
 //#define MBEDTLS_USE_PSA_CRYPTO
 //#define MBEDTLS_PSA_CRYPTO_C
 
+#define MBEDTLS_ECDH_LEGACY_CONTEXT
+
 /* With MBEDTLS_PSA_CRYPTO_C, importing an RSA key requires MBEDTLS_PK_WRITE_C */
 #if defined(MBEDTLS_PSA_CRYPTO_C)
 #define MBEDTLS_PK_WRITE_C
