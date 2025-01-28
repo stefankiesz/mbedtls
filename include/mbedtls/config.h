@@ -70,7 +70,7 @@
 #define MBEDTLS_ECDH_LEGACY_CONTEXT
 #define MBEDTLS_BIGNUM_C
 #define MBEDTLS_ECDH_C
-// #define MBEDTLS_ECP_C
+#define MBEDTLS_ECP_C
 // #define MBEDTLS_RSA_C
 // #define MBEDTLS_AES_C
 // #define MBEDTLS_ARC4_C
