@@ -99,6 +99,10 @@
 #define MBEDTLS_KEY_EXCHANGE_ECDH_RSA_ENABLED
 
 
+#define MBEDTLS_VERSION_C
+
+
+
 
 
 /* With MBEDTLS_PSA_CRYPTO_C, importing an RSA key requires MBEDTLS_PK_WRITE_C */
