@@ -68,7 +68,6 @@
 
 
 #define MBEDTLS_ECDH_LEGACY_CONTEXT
-#define MBEDTLS_BIGNUM_C
 #define MBEDTLS_ECDH_C
 #define MBEDTLS_ECP_C
 // #define MBEDTLS_RSA_C
@@ -103,12 +102,10 @@
 
 #define MBEDTLS_SSL_EXPORT_KEYS
 
-
-/* With MBEDTLS_PSA_CRYPTO_C, importing an RSA key requires MBEDTLS_PK_WRITE_C */
-#if defined(MBEDTLS_PSA_CRYPTO_C)
+#define MBEDTLS_X509_CRT_WRITE_C
+#define MBEDTLS_X509_CREATE_C
 #define MBEDTLS_PK_WRITE_C
-#endif
-#include "mbedtls/check_config.h"
+
 
 /* Error messages and TLS debugging traces
  * (huge code size increase, needed for tests/ssl-opt.sh) */
