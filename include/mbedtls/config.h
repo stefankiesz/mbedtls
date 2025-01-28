@@ -106,6 +106,7 @@
 #define MBEDTLS_X509_CREATE_C
 #define MBEDTLS_PK_WRITE_C
 
+#include "mbedtls/check_config.h"
 
 /* Error messages and TLS debugging traces
  * (huge code size increase, needed for tests/ssl-opt.sh) */
