@@ -108,6 +108,8 @@
 
 #define MBEDTLS_GENPRIME
 
+#define MBEDTLS_SSL_ALPN
+
 #include "mbedtls/check_config.h"
 
 /* Error messages and TLS debugging traces
