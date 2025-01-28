@@ -97,6 +97,8 @@
 
 #define MBEDTLS_VERSION_C
 
+#define MBEDTLS_SSL_DTLS_SRTP
+#define MBEDTLS_SSL_PROTO_DTLS
 
 
 
