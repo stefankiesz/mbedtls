@@ -76,7 +76,7 @@
 // #define MBEDTLS_ARC4_C
 // #define MBEDTLS_CAMELLIA_C
 // #define MBEDTLS_DES_C
-// #define MBEDTLS_ECDSA_C
+#define MBEDTLS_ECDSA_C
 
 /* Short Weierstrass curves (supporting ECP, ECDH, ECDSA) */
 #define MBEDTLS_ECP_DP_SECP192R1_ENABLED
