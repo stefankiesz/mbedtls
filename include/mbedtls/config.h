@@ -106,6 +106,8 @@
 #define MBEDTLS_X509_CREATE_C
 #define MBEDTLS_PK_WRITE_C
 
+#define MBEDTLS_GENPRIME
+
 #include "mbedtls/check_config.h"
 
 /* Error messages and TLS debugging traces
