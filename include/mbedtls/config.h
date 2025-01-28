@@ -99,8 +99,7 @@
 
 #define MBEDTLS_SSL_DTLS_SRTP
 #define MBEDTLS_SSL_PROTO_DTLS
-
-
+#define MBEDTLS_SSL_DTLS_HELLO_VERIFY
 
 
 /* With MBEDTLS_PSA_CRYPTO_C, importing an RSA key requires MBEDTLS_PK_WRITE_C */
